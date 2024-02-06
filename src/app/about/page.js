@@ -1,9 +1,12 @@
 import React from 'react';
+import Review from '../component/Reviews/page';
+import Footer from '../component/footer/page';
 
 const about = () => {
     return (
         <div>
-            my about page
+          <Review></Review>
+          <Footer></Footer>
         </div>
     );
 };

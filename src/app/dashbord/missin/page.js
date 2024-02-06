@@ -55,7 +55,7 @@ const chartData = [
 
 const missin = () => {
     return (
-   <div className="w-3/4">
+   <div className="w-4/5">
     
     <AreaChart chartData={chartData} dataKey="price" />
     sdfds

@@ -9,6 +9,7 @@ const Dashlayout = ({ children }) => {
                     <li className='my-3'><Link href="/dashbord/hoome"><button class="btn w-full btn-outline btn-secondary">Acount</button></Link></li>
                     <li className='my-3'><Link href="/dashbord"><button class="btn w-full btn-outline btn-secondary">Home</button></Link></li>
                     <li className='my-3'><Link href="/dashbord/missin"><button class="btn w-full btn-outline btn-secondary">Missin</button></Link></li>
+                    <li className='my-3'><Link href="/dashbord/about"><button class="btn w-full btn-outline btn-secondary">not found</button></Link></li>
                     <hr></hr>
                     <li className='my-3'><Link href="/"><button class="btn w-full btn-outline btn-secondary">Home</button></Link></li>
                 </ul>
