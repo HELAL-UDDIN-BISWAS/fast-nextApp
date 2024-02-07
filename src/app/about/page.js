@@ -7,7 +7,7 @@ const about = () => {
     return (
         <div>
           <Review></Review>
-          <StarRating></StarRating>
+          {/* <StarRating></StarRating> */}
           <Footer></Footer>
         </div>
     );

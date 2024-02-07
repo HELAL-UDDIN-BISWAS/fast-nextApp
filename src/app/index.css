@@ -3,4 +3,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+ 
+.non{
+    display: none;
+}
+.hove{
+cursor: pointer;
+}
+.hove:hover + .non{
+display: block;
+cursor: pointer;
+}
+.non:hover{
+    display: block;
+    cursor: pointer;
+}
